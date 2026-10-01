@@ -221,3 +221,28 @@ print("Треугольник S:", triangle.area(10, 5))
 print("Треугольник P:", triangle.perimeter(3, 4, 5))
 
 
+Пример комплексного использования библиотеки
+code
+Python
+import circle
+import rectangle
+import square
+import triangle
+
+# Круг
+print("Круг S:", circle.area(10))
+print("Круг P:", circle.perimeter(10))
+
+# Прямоугольник
+print("Прямоугольник S:", rectangle.area(5, 8))
+print("Прямоугольник P:", rectangle.perimeter(5, 8))
+
+# Квадрат
+print("Квадрат S:", square.area(4))
+print("Квадрат P:", square.perimeter(4))
+
+# Треугольник
+print("Треугольник S:", triangle.area(10, 5))
+print("Треугольник P:", triangle.perimeter(3, 4, 5))
+
+
